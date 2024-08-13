@@ -93,10 +93,109 @@
 // document.write("<br>")
 
 
-// // or
+//  or
 
 
 // document.write(age> 17 ? "Eligible for vote": "NOt Eligible for vote")
 
 
 // -----------------------------------------------------------
+
+
+// let number = prompt("Enter number")
+
+// if(number > 0) {
+//     console.log("The number is positive");
+// } else if(number < 0) {
+//     console.log("The number is negative");
+//  } else {
+//     console.log("The number is zero");
+//  }
+
+
+//-------------------------------------------------------------
+
+
+// let fruit = prompt("Enter fruit name")
+
+// switch (fruit) {
+//     case "apple":
+//         console.log("apple");
+//     break;
+//     case "mango":
+//         console.log("mango");
+//     break;
+//     default:
+//         console.log("unavailable");
+//     break;
+// }
+
+
+//------------------------------------------------------------
+
+
+// Simple function
+
+// function greeting(){
+//     document.write("Happy Independance Day<br>")
+// }
+// greeting() // function calling 
+
+// //------------------------------
+
+// // function Expression
+
+// let day = function(){
+//     document.write("Have a nice day<br>")
+// }
+// day()
+
+// //---------------------------------
+
+// // arrow function
+
+// let msg = () =>{
+//     document.write("Happy Birthday<br>")
+// } 
+// msg()
+
+// //----------------------------------
+
+// // iife (automatically calling function)
+
+// (function(){
+//     document.write("This is IIFE function")
+// }());
+
+//----------------------------------
+
+// function greeting() {
+//     document.write("Meet Arora");
+// }
+
+//-------------------------------------------------------------------
+
+
+function greeting(){
+    document.getElementById("demo").innerHTML = "Have a Nice day"
+}
+function morning(){
+    document.getElementById("demo").innerHTML = "Good Morning"
+    document.getElementById("mode").style.background = "skyblue"
+    document.getElementById("mode").style.color = "black"
+}
+function afternoon(){
+    document.getElementById("demo").innerHTML = "Good Afternoon"
+     document.getElementById("mode").style.background = "#f9f5a2"
+    document.getElementById("mode").style.color = "black"
+}
+function evening(){
+    document.getElementById("demo").innerHTML = "Good Evening"
+     document.getElementById("mode").style.background = "goldenrod"
+    document.getElementById("mode").style.color = "black"
+}
+function night(){
+    document.getElementById("demo").innerHTML = "Good Night"
+     document.getElementById("mode").style.background = "black"
+    document.getElementById("mode").style.color = "white"
+}
