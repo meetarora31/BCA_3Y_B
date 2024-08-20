@@ -176,26 +176,74 @@
 //-------------------------------------------------------------------
 
 
-function greeting(){
-    document.getElementById("demo").innerHTML = "Have a Nice day"
+// function greeting(){
+//     document.getElementById("demo").innerHTML = "Have a Nice day"
+// }
+// function morning(){
+//     document.getElementById("demo").innerHTML = "Good Morning"
+//     document.getElementById("mode").style.background = "skyblue"
+//     document.getElementById("mode").style.color = "black"
+// }
+// function afternoon(){
+//     document.getElementById("demo").innerHTML = "Good Afternoon"
+//      document.getElementById("mode").style.background = "#f9f5a2"
+//     document.getElementById("mode").style.color = "black"
+// }
+// function evening(){
+//     document.getElementById("demo").innerHTML = "Good Evening"
+//      document.getElementById("mode").style.background = "goldenrod"
+//     document.getElementById("mode").style.color = "black"
+// }
+// function night(){
+//     document.getElementById("demo").innerHTML = "Good Night"
+//      document.getElementById("mode").style.background = "black"
+//     document.getElementById("mode").style.color = "white"
+// }
+
+//--------------------------------------------------------------------------
+
+
+// let Student = {
+//     id: 101,    // Number
+//     sname: "Lucky",  // String
+//     isStudent: true, //Boolean
+// }
+
+// let {id,sname,isStudent} = Student
+
+// console.log(id);
+// console.log(sname);
+// console.log(isStudent);
+
+
+//-------------------------------------------------------------------------------------------
+
+
+// let Student = {
+//     id: 101,    // Number
+//     sname: "Lucky",  // String
+//     isStudent: true, //Boolean
+// }
+// console.log(Student['id']);
+
+// Student.id = 102
+// console.log(Student["id"])
+
+// Student["age"] = 22
+// console.log(Student);
+
+// Student.isStudent = false
+// console.log(Student);
+
+
+// Delete Object
+
+let Student = {
+    id: 101,    // Number
+    sname: "Lucky",  // String
+    isStudent: true, //Boolean
 }
-function morning(){
-    document.getElementById("demo").innerHTML = "Good Morning"
-    document.getElementById("mode").style.background = "skyblue"
-    document.getElementById("mode").style.color = "black"
-}
-function afternoon(){
-    document.getElementById("demo").innerHTML = "Good Afternoon"
-     document.getElementById("mode").style.background = "#f9f5a2"
-    document.getElementById("mode").style.color = "black"
-}
-function evening(){
-    document.getElementById("demo").innerHTML = "Good Evening"
-     document.getElementById("mode").style.background = "goldenrod"
-    document.getElementById("mode").style.color = "black"
-}
-function night(){
-    document.getElementById("demo").innerHTML = "Good Night"
-     document.getElementById("mode").style.background = "black"
-    document.getElementById("mode").style.color = "white"
-}
+console.log(Student);
+
+delete Student.isStudent
+console.log(Student);
